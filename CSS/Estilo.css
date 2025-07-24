@@ -1,0 +1,122 @@
+body {
+   font-family:Arial, Helvetica, sans-serif;
+   color: rgb(10, 10, 10);
+   font-weight: 700;
+   background-color: white;
+   margin: 0px;
+   margin-top: 50px;
+   text-align: left;
+   margin-left: 25px;
+   
+   
+}
+
+
+
+h1 {font-size: 30px;
+    text-align:left;
+    margin: 50px;
+    margin-left: 175px;
+    color: rgb(4, 4, 4);
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"]
+{
+    width: 550px;
+    height: 35px;
+    border-radius: 5px;
+    
+}
+
+
+
+
+input[type="radio"] {
+      accent-color: rgb(174, 212, 144); /* Troque para a cor desejada */
+    }
+
+input[type="checkbox"] /* troque a cor do Checkbox */
+{
+    accent-color: rgb(174, 212, 144);
+
+
+}
+
+
+
+
+textarea {
+  width: 550px;
+  height: 110px;
+  padding: 8px;
+  margin: 6px 0 12px;
+  border: 1px solid #100f0f;
+  border-radius: 4px;
+  
+
+}
+
+button{
+    width: 120px;
+    height: 35px;
+    color: white;
+    background-color: rgba(9, 118, 164, 0.823);
+    border-radius: 9px;
+    border:none;
+    font-weight: bold;
+     display: block;
+     margin: 0 auto;
+     cursor: pointer;
+    
+     -webkit-print-color-adjust:exact;
+
+}
+
+
+#ficha-inscricao
+{
+    border:1px solid #0f0f0f;
+    border-radius:10px;
+    padding: 25px;
+    margin: auto;
+    width: 600px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    background-color:#fff;
+    margin-left: 100px;
+    
+   
+}
+
+.logo-formulario   {
+
+  width: 100px;  /* antes era 60px */
+  height: auto; 
+  margin: auto;
+  margin-top: 25px;
+  margin-left: 25px;
+}
+
+.cabecalho-formulario h1 {
+  font-size: 20px;  /* um pouco menor para equilibrar */
+  margin: auto;
+  color: rgb(4, 4, 4);
+  text-align: center;
+}
+
+.dados{
+  label{
+display: block;
+margin-top: 5px;
+margin-bottom: 5px;
+  }
+  input{
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+
+
+  }
+
+
